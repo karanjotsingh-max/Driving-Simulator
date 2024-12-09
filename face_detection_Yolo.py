@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load YOLO model for face detection
-model = YOLO('model/yolov8n_100e.pt')  # Replace with your YOLOv8 model
+model = YOLO('model/yolov8n_100e.pt')  
 
 # Load Haar cascade for eye detection (pre-trained for glasses)
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye_tree_eyeglasses.xml')
