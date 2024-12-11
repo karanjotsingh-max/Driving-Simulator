@@ -16,7 +16,7 @@ This project implements a real-time drowsiness detection system for driving simu
 - Real-time face detection using YOLO v8.
 - Eye detection using Haar Cascade in the upper half of the detected face.
 - Alarm triggers if eyes are detected closed for a certain period (indicating drowsiness).
-- Local contrast enhancement (CLAHE) for better eye detection performance.
+- CLAHE (Contrast Limited Adaptive Histogram Equalization) is applied to improve eye detection under various lighting conditions.
 
 ## Requirements
 
